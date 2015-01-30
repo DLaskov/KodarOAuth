@@ -12,7 +12,7 @@ namespace AngularJSAuthentication1.API
         public AuthContext()
             : base("AuthContext")
         {
-
+            //TEST
         }
     }
 }
