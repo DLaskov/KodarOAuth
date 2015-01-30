@@ -1,4 +1,4 @@
-﻿using AngularJSAuthentication1.API.Services;
+﻿using KodarOAuth.API.Services;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.Owin.Security.OAuth;
 using System;
@@ -8,7 +8,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace AngularJSAuthentication1.Providers
+namespace KodarOAuth.Providers
 {
     public class SimpleAuthorizationServerProvider : OAuthAuthorizationServerProvider
     {

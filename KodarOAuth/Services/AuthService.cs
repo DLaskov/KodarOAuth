@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
-using AngularJSAuthentication1.API.Models;
+using KodarOAuth.API.Models;
 using System;
 
-namespace AngularJSAuthentication1.API.Services
+namespace KodarOAuth.API.Services
 {
     public class AuthService : IDisposable
     {

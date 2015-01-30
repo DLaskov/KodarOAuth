@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AngularJSAuthentication1.API.Models
+namespace KodarOAuth.API.Models
 {
     public class ModelUser
     {

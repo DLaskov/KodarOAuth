@@ -1,10 +1,10 @@
-﻿using AngularJSAuthentication1.API.Models;
-using AngularJSAuthentication1.API.Services;
+﻿using KodarOAuth.API.Models;
+using KodarOAuth.API.Services;
 using Microsoft.AspNet.Identity;
 using System.Threading.Tasks;
 using System.Web.Http;
 
-namespace AngularJSAuthentication1.API.Controllers
+namespace KodarOAuth.API.Controllers
 {
     [RoutePrefix("api/Account")]
     public class AccountController : ApiController

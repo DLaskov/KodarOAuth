@@ -1,0 +1,22 @@
+﻿<div class="row">
+    <div class="col-md-4 col-md-offset-4">
+        <form class="form-login" role="form">
+            <h2 class="form-login-heading">Sign up</h2>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Username" data-ng-model="registration.userName" required autofocus>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" data-ng-model="registration.password" required>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Confirm Password" data-ng-model="registration.confirmPassword" required>
+            </div>
+            <div class="form-group">
+                <button class="btn btn-md btn-info btn-block" type="submit" data-ng-click="signUp()">Submit</button>
+            </div>
+            <div data-ng-hide="message == ''" data-ng-class="(savedSuccessfully) ? 'alert alert-success' : 'alert alert-danger'">
+                {{message}}
+            </div>
+        </form>
+    </div>
+</div>

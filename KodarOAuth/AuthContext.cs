@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AngularJSAuthentication1.API
+namespace KodarOAuth.API
 {
     public class AuthContext : IdentityDbContext<IdentityUser>
     {

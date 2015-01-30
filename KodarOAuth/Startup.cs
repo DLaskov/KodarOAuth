@@ -1,5 +1,5 @@
-﻿using AngularJSAuthentication1.API;
-using AngularJSAuthentication1.Providers;
+﻿using KodarOAuth.API;
+using KodarOAuth.Providers;
 using Microsoft.Owin;
 using Microsoft.Owin.Cors;
 using Microsoft.Owin.Security.OAuth;
@@ -11,9 +11,9 @@ using System.Web;
 using System.Web.Http;
  
 
-[assembly: OwinStartup(typeof(AngularJSAuthentication1.API.Startup))]
+[assembly: OwinStartup(typeof(KodarOAuth.API.Startup))]
 
-namespace AngularJSAuthentication1.API
+namespace KodarOAuth.API
 {
     public class Startup
     {
