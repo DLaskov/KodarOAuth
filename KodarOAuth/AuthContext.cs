@@ -12,7 +12,6 @@ namespace KodarOAuth.API
         public AuthContext()
             : base("AuthContext")
         {
-            //TEST
         }
     }
 }
